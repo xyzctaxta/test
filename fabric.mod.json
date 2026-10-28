@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "clearlag",
+  "version": "${version}",
+  "name": "ClearLag",
+  "description": "Membersihkan item drop, XP orb, dan mob hostile secara otomatis untuk mengurangi lag.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["clearlag.ClearLagMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
